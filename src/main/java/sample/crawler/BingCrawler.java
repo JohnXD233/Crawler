@@ -1,11 +1,10 @@
 package sample.crawler;
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.stereotype.Component;
 
-@RequestMapping("BingCrawler")
+@Component
 public class BingCrawler implements ICrawler {
 
-	@RequestMapping("run")
 	@Override
 	public String run() {
 		// TODO Auto-generated method stub
